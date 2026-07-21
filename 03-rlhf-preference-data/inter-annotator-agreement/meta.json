@@ -1,0 +1,8 @@
+{
+  "title": "Inter-Annotator Agreement",
+  "slug": "inter-annotator-agreement",
+  "category": "03-rlhf-preference-data",
+  "status": "done",
+  "skills": ["annotation-quality", "statistics", "cohens-kappa", "fleiss-kappa", "python"],
+  "summary": "Computes percent agreement, Cohen's kappa, and Fleiss' kappa from annotation rows to measure how much labelers agree beyond chance — validated against textbook values."
+}

@@ -1,0 +1,12 @@
+{
+  "n_items": 12,
+  "n_annotators": 3,
+  "categories": [
+    "A",
+    "B",
+    "tie"
+  ],
+  "mean_percent_agreement": 0.6111,
+  "mean_pairwise_cohens_kappa": 0.4037,
+  "fleiss_kappa": 0.3986
+}

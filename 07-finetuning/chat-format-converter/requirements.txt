@@ -1,0 +1,3 @@
+# Core converter: standard library only.
+# Tests additionally use:
+pytest>=8.0

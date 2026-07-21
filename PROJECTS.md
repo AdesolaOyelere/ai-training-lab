@@ -12,7 +12,9 @@ The table below is generated from each project's `meta.json` (run
 | Project | Category | Status | Summary |
 |---|---|---|---|
 | [Instruction-Following Eval](01-llm-evaluations/instruction-following-eval/) | `01-llm-evaluations` | ✅ | Grades model outputs against programmatically checkable constraints (word counts, required keywords, valid JSON, structure) with no subjective judging. |
+| [Inter-Annotator Agreement](03-rlhf-preference-data/inter-annotator-agreement/) | `03-rlhf-preference-data` | ✅ | Computes percent agreement, Cohen's kappa, and Fleiss' kappa from annotation rows to measure how much labelers agree beyond chance — validated against textbook values. |
 | [Reasoning-Trace Generator](05-synthetic-data/reasoning-trace-generator/) | `05-synthetic-data` | ✅ | Generates step-by-step reasoning traces and keeps only those an independent reference verifies, with dedup and length filtering — rejection sampling for a clean training set. |
+| [Chat Format Converter](07-finetuning/chat-format-converter/) | `07-finetuning` | ✅ | Converts SFT chat data between ShareGPT, OpenAI messages, and prompt/response formats via a single normalized representation, with validation and clear errors. |
 | [JSONL Validator](10-tooling/jsonl-validator/) | `10-tooling` | ✅ | A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI. |
 <!-- INDEX:TABLE:END -->
 
@@ -51,7 +53,7 @@ The table below is generated from each project's `meta.json` (run
 ### 03 · RLHF & Preference Data
 - ⬜ `preference-dataset-builder` — build a chosen/rejected set with a guide
 - ⬜ `pairwise-ranking-rubric` — rubric + worked calibration examples
-- ⬜ `inter-annotator-agreement` — Cohen's / Fleiss' kappa report
+- ✅ `inter-annotator-agreement` — Cohen's / Fleiss' kappa report
 - ⬜ `reward-model-scoring-notebook` — score responses, inspect margins
 - ⬜ `response-quality-taxonomy` — a taxonomy of failure modes
 - ⬜ `helpful-harmless-honest-rubric` — HHH rubric with edge cases
@@ -100,7 +102,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `sft-data-prep` — clean + format an SFT dataset
 - ⬜ `tokenization-cost-analysis` — token/cost accounting across datasets
 - ⬜ `eval-before-after-harness` — compare a model pre/post tuning
-- ⬜ `chat-format-converter` — ShareGPT / messages / JSONL converters
+- ✅ `chat-format-converter` — ShareGPT / messages / JSONL converters
 - ⬜ `lora-config-explainer` — annotated LoRA config walkthrough
 - ⬜ `dataset-decontamination` — remove eval leakage from train data
 - ⬜ `train-val-split-stratified` — stratified, leakage-safe splits
