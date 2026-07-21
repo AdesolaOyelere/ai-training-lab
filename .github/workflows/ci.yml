@@ -20,6 +20,17 @@ jobs:
       - name: Lint
         run: uvx ruff check .
 
-      - name: Run tests
+      # Each project is self-contained and may reuse common module names
+      # (eval.py, providers.py, a tests/ package), so tests run isolated per
+      # project rather than in one shared collection.
+      - name: Run tests (per project)
+        shell: bash
         run: |
-          uv run --with pytest python -m pytest
+          fail=0
+          for d in [0-9][0-9]-*/*/; do
+            if ls "${d}tests/"test_*.py >/dev/null 2>&1 || ls "${d}"test_*.py >/dev/null 2>&1; then
+              echo "== $d =="
+              ( cd "$d" && uv run --no-project --python 3.11 --with pytest python -m pytest ) || fail=1
+            fi
+          done
+          exit $fail

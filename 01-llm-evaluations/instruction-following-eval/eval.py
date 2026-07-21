@@ -12,8 +12,8 @@ from __future__ import annotations
 
 import json
 import re
+from collections.abc import Callable
 from dataclasses import dataclass, field
-from typing import Callable
 
 # --- constraint checkers -------------------------------------------------------
 # Each checker takes the model output text plus the constraint params and returns
@@ -138,7 +138,7 @@ class EvalItem:
     mock_response: str = ""
 
     @classmethod
-    def from_dict(cls, d: dict) -> "EvalItem":
+    def from_dict(cls, d: dict) -> EvalItem:
         cons = [Constraint(c["type"], {k: v for k, v in c.items() if k != "type"}) for c in d["constraints"]]
         return cls(id=d["id"], prompt=d["prompt"], constraints=cons, mock_response=d.get("mock_response", ""))
 
