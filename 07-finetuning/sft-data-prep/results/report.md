@@ -1,0 +1,13 @@
+# SFT Data Prep — Report
+
+| Stage | Count |
+|---|---|
+| input | 12 |
+| dropped_missing_field | 1 |
+| dropped_empty | 3 |
+| dropped_placeholder | 2 |
+| dropped_too_short | 0 |
+| dropped_too_long | 0 |
+| dropped_duplicate | 1 |
+| kept | 5 |
+| keep_rate | 0.417 |

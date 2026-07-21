@@ -21,6 +21,7 @@ The table below is generated from each project's `meta.json` (run
 | [Reasoning-Trace Generator](05-synthetic-data/reasoning-trace-generator/) | `05-synthetic-data` | ✅ | Generates step-by-step reasoning traces and keeps only those an independent reference verifies, with dedup and length filtering — rejection sampling for a clean training set. |
 | [Tool-Calling Eval Harness](06-agentic-tasks/tool-calling-eval-harness/) | `06-agentic-tasks` | ✅ | Scores an agent's tool calls on schema validity, tool selection, and argument correctness against a tool catalog and expected calls, rolled up into tracked rates. |
 | [Chat Format Converter](07-finetuning/chat-format-converter/) | `07-finetuning` | ✅ | Converts SFT chat data between ShareGPT, OpenAI messages, and prompt/response formats via a single normalized representation, with validation and clear errors. |
+| [SFT Data Prep](07-finetuning/sft-data-prep/) | `07-finetuning` | ✅ | Cleans raw prompt/response data into ready-to-train SFT messages format — whitespace, empties, placeholders, length bounds, dedup — with a per-stage drop report. |
 | [Summary Quality Rubric](08-annotation-guidelines/summary-quality-rubric/) | `08-annotation-guidelines` | ✅ | An annotation handbook for rating summary quality (coverage, faithfulness, conciseness, fluency) with a faithfulness gate, plus executable rubric code that reproduces every gold calibration label. |
 | [Math Word Problems (Graded)](09-reasoning-datasets/math-word-problems-graded/) | `09-reasoning-datasets` | ✅ | A math word-problem dataset with a robust final-answer checker that normalizes numbers, treats equivalent fractions as equal, and matches text labels — then grades a whole set by type. |
 | [JSONL Validator](10-tooling/jsonl-validator/) | `10-tooling` | ✅ | A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI. |
@@ -108,7 +109,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `tool-selection-accuracy` — picks the right tool for the job
 
 ### 07 · Fine-tuning & Training
-- ⬜ `sft-data-prep` — clean + format an SFT dataset
+- ✅ `sft-data-prep` — clean + format an SFT dataset
 - ⬜ `tokenization-cost-analysis` — token/cost accounting across datasets
 - ⬜ `eval-before-after-harness` — compare a model pre/post tuning
 - ✅ `chat-format-converter` — ShareGPT / messages / JSONL converters

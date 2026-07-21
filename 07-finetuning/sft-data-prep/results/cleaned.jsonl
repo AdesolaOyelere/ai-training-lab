@@ -1,0 +1,5 @@
+{"messages": [{"role": "user", "content": "What is the capital of France?"}, {"role": "assistant", "content": "The capital of France is Paris."}]}
+{"messages": [{"role": "user", "content": "Define photosynthesis."}, {"role": "assistant", "content": "It is how plants convert light into chemical energy."}]}
+{"messages": [{"role": "user", "content": "Explain gravity."}, {"role": "assistant", "content": "Gravity is the force that attracts two bodies with mass toward each other."}]}
+{"messages": [{"role": "user", "content": "What is 2+2?"}, {"role": "assistant", "content": "4"}]}
+{"messages": [{"role": "system", "content": "You are terse."}, {"role": "user", "content": "Give a one-word answer."}, {"role": "assistant", "content": "Sure"}]}

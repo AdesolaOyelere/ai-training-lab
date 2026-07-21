@@ -1,0 +1,8 @@
+{
+  "title": "SFT Data Prep",
+  "slug": "sft-data-prep",
+  "category": "07-finetuning",
+  "status": "done",
+  "skills": ["data-engineering", "sft-data", "cleaning-pipeline", "python"],
+  "summary": "Cleans raw prompt/response data into ready-to-train SFT messages format — whitespace, empties, placeholders, length bounds, dedup — with a per-stage drop report."
+}

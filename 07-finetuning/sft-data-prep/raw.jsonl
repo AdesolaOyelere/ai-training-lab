@@ -1,0 +1,12 @@
+{"prompt": "What is the capital of France?", "response": "The capital of France is Paris."}
+{"prompt": "  Define photosynthesis.  ", "response": "It is how plants convert light into chemical energy."}
+{"prompt": "What is the capital of France?", "response": "The capital of France is Paris."}
+{"prompt": "", "response": "This has an empty prompt."}
+{"prompt": "This has an empty response.", "response": "   "}
+{"prompt": "TODO", "response": "TODO"}
+{"prompt": "Hi", "response": ""}
+{"prompt": "Explain gravity.", "response": "Gravity is the force that attracts two bodies with mass toward each other."}
+{"response": "Missing the prompt field entirely."}
+{"prompt": "Summarize the plot.", "response": "N/A"}
+{"prompt": "What is 2+2?", "response": "4"}
+{"prompt": "Give a one-word answer.", "response": "Sure", "system": "You are terse."}
