@@ -1,0 +1,8 @@
+{
+  "title": "Prompt-Injection Detector",
+  "slug": "prompt-injection-detector",
+  "category": "04-red-teaming-safety",
+  "status": "done",
+  "skills": ["ai-safety", "prompt-injection", "detection-eval", "python"],
+  "summary": "A defensive rule-based detector that flags injection attempts in untrusted content (override, exfiltration, role spoofing, destructive commands), scored with precision/recall/F1 against a labeled set."
+}

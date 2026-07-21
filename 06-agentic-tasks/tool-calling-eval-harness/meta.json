@@ -1,0 +1,8 @@
+{
+  "title": "Tool-Calling Eval Harness",
+  "slug": "tool-calling-eval-harness",
+  "category": "06-agentic-tasks",
+  "status": "done",
+  "skills": ["agentic-eval", "tool-use", "schema-validation", "python"],
+  "summary": "Scores an agent's tool calls on schema validity, tool selection, and argument correctness against a tool catalog and expected calls, rolled up into tracked rates."
+}

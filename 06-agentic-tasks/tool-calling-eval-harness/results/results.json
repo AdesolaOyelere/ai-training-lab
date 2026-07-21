@@ -1,0 +1,77 @@
+{
+  "n_tasks": 8,
+  "valid_rate": 0.75,
+  "tool_selection_accuracy": 0.875,
+  "full_pass_rate": 0.5,
+  "arg_match_given_correct_tool": 0.5714,
+  "tasks": [
+    {
+      "id": "t1",
+      "valid": true,
+      "tool_correct": true,
+      "args_correct": true,
+      "fully_correct": true,
+      "errors": []
+    },
+    {
+      "id": "t2",
+      "valid": true,
+      "tool_correct": true,
+      "args_correct": true,
+      "fully_correct": true,
+      "errors": []
+    },
+    {
+      "id": "t3",
+      "valid": true,
+      "tool_correct": true,
+      "args_correct": false,
+      "fully_correct": false,
+      "errors": []
+    },
+    {
+      "id": "t4",
+      "valid": true,
+      "tool_correct": false,
+      "args_correct": false,
+      "fully_correct": false,
+      "errors": []
+    },
+    {
+      "id": "t5",
+      "valid": false,
+      "tool_correct": true,
+      "args_correct": false,
+      "fully_correct": false,
+      "errors": [
+        "missing required arg: to_currency"
+      ]
+    },
+    {
+      "id": "t6",
+      "valid": true,
+      "tool_correct": true,
+      "args_correct": true,
+      "fully_correct": true,
+      "errors": []
+    },
+    {
+      "id": "t7",
+      "valid": true,
+      "tool_correct": true,
+      "args_correct": true,
+      "fully_correct": true,
+      "errors": []
+    },
+    {
+      "id": "t8",
+      "valid": false,
+      "tool_correct": true,
+      "args_correct": false,
+      "fully_correct": false,
+      "errors": [
+        "wrong type for max_results: str"
+      ]
+    }
+  ]
+}

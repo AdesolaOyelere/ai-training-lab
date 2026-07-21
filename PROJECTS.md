@@ -13,7 +13,9 @@ The table below is generated from each project's `meta.json` (run
 |---|---|---|---|
 | [Instruction-Following Eval](01-llm-evaluations/instruction-following-eval/) | `01-llm-evaluations` | ✅ | Grades model outputs against programmatically checkable constraints (word counts, required keywords, valid JSON, structure) with no subjective judging. |
 | [Inter-Annotator Agreement](03-rlhf-preference-data/inter-annotator-agreement/) | `03-rlhf-preference-data` | ✅ | Computes percent agreement, Cohen's kappa, and Fleiss' kappa from annotation rows to measure how much labelers agree beyond chance — validated against textbook values. |
+| [Prompt-Injection Detector](04-red-teaming-safety/prompt-injection-detector/) | `04-red-teaming-safety` | ✅ | A defensive rule-based detector that flags injection attempts in untrusted content (override, exfiltration, role spoofing, destructive commands), scored with precision/recall/F1 against a labeled set. |
 | [Reasoning-Trace Generator](05-synthetic-data/reasoning-trace-generator/) | `05-synthetic-data` | ✅ | Generates step-by-step reasoning traces and keeps only those an independent reference verifies, with dedup and length filtering — rejection sampling for a clean training set. |
+| [Tool-Calling Eval Harness](06-agentic-tasks/tool-calling-eval-harness/) | `06-agentic-tasks` | ✅ | Scores an agent's tool calls on schema validity, tool selection, and argument correctness against a tool catalog and expected calls, rolled up into tracked rates. |
 | [Chat Format Converter](07-finetuning/chat-format-converter/) | `07-finetuning` | ✅ | Converts SFT chat data between ShareGPT, OpenAI messages, and prompt/response formats via a single normalized representation, with validation and clear errors. |
 | [JSONL Validator](10-tooling/jsonl-validator/) | `10-tooling` | ✅ | A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI. |
 <!-- INDEX:TABLE:END -->
@@ -64,7 +66,7 @@ The table below is generated from each project's `meta.json` (run
 
 ### 04 · Red-teaming & AI Safety
 - ⬜ `refusal-over-refusal-eval` — balance safety and helpfulness
-- ⬜ `prompt-injection-test-suite` — injections against a tool-using agent
+- ✅ `prompt-injection-detector` — flag injections in untrusted content
 - ⬜ `adversarial-prompt-taxonomy` — categorize adversarial inputs
 - ⬜ `jailbreak-pattern-catalog` — defensive analysis of known patterns
 - ⬜ `safety-rubric-annotation-guide` — how to label safety violations
@@ -87,7 +89,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `seed-to-dataset-expander` — grow a seed set with diversity control
 
 ### 06 · Agentic & Tool-use Tasks
-- ⬜ `tool-calling-eval-harness` — score tool-call correctness
+- ✅ `tool-calling-eval-harness` — score tool-call correctness
 - ⬜ `multi-step-planning-tasks` — tasks needing a plan, with checkers
 - ⬜ `function-schema-validator` — validate tool-call args against schema
 - ⬜ `react-agent-mini` — a small ReAct loop over mock tools
