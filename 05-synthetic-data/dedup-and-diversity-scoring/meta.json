@@ -1,0 +1,8 @@
+{
+  "title": "Dedup & Diversity Scoring",
+  "slug": "dedup-and-diversity-scoring",
+  "category": "05-synthetic-data",
+  "status": "done",
+  "skills": ["data-quality", "deduplication", "diversity-metrics", "python"],
+  "summary": "Removes near-duplicate dataset entries with character n-gram Jaccard similarity and scores diversity before and after — no embeddings, fully deterministic."
+}

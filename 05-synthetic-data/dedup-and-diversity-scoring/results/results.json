@@ -1,0 +1,35 @@
+{
+  "kept_indices": [
+    0,
+    2,
+    3,
+    5,
+    7
+  ],
+  "removed": [
+    {
+      "index": 1,
+      "duplicate_of": 0
+    },
+    {
+      "index": 4,
+      "duplicate_of": 0
+    },
+    {
+      "index": 6,
+      "duplicate_of": 2
+    }
+  ],
+  "kept_texts": [
+    "Write a function that returns the sum of two numbers.",
+    "Explain how a hash table works and its average lookup time.",
+    "Summarize the key causes of the French Revolution.",
+    "Describe the water cycle: evaporation, condensation, precipitation.",
+    "List three benefits of regular exercise for mental health."
+  ],
+  "n_in": 8,
+  "n_kept": 5,
+  "n_removed": 3,
+  "diversity_before": 0.8861,
+  "diversity_after": 0.9821
+}
