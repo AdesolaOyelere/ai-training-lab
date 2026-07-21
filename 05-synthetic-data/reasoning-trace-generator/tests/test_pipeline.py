@@ -11,8 +11,8 @@ from pathlib import Path
 from pipeline import (
     FLAW_RATE,
     MIN_STEPS,
-    N,
     SEED,
+    N,
     expected_answer,
     generate,
     is_correct,

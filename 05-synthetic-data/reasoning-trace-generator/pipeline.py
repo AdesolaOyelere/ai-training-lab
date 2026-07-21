@@ -70,7 +70,7 @@ def make_conversion(rng: random.Random) -> dict:
         "type": "conversion",
         "question": f"Convert {km} kilometers to meters.",
         "params": {"km": km},
-        "reasoning": [f"1 km = 1000 m.", f"{km} km = {km} * 1000 = {m} m."],
+        "reasoning": ["1 km = 1000 m.", f"{km} km = {km} * 1000 = {m} m."],
         "answer_value": m,
     }
 

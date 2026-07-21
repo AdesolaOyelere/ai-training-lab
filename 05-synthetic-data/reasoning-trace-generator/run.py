@@ -10,7 +10,7 @@ import argparse
 import json
 from pathlib import Path
 
-from pipeline import FLAW_RATE, MIN_STEPS, N, SEED, run_pipeline
+from pipeline import FLAW_RATE, MIN_STEPS, SEED, N, run_pipeline
 
 HERE = Path(__file__).parent
 
