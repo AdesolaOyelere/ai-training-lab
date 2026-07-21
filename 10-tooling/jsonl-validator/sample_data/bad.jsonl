@@ -1,0 +1,6 @@
+{"id": "ex1", "prompt": "Summarize the passage.", "response": "A short summary.", "score": 4}
+{"id": "ex2", "prompt": "Translate to French.", "response": "", "score": 5}
+{"id": "ex2", "prompt": "Duplicate id here.", "response": "oops", "score": "high"}
+{"id": "ex4", "prompt": "Missing response field.", "score": 2}
+{not valid json at all}
+[1, 2, 3]

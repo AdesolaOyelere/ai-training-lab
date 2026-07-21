@@ -1,0 +1,8 @@
+{
+  "title": "JSONL Validator",
+  "slug": "jsonl-validator",
+  "category": "10-tooling",
+  "status": "done",
+  "skills": ["cli", "data-validation", "tooling", "python"],
+  "summary": "A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI."
+}

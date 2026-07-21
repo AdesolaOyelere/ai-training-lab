@@ -1,0 +1,147 @@
+{
+  "n_items": 8,
+  "mean_constraint_satisfaction": 0.875,
+  "perfect_rate": 0.75,
+  "items": [
+    {
+      "id": "haiku-no-punct",
+      "constraint_satisfaction": 1.0,
+      "all_passed": true,
+      "n_constraints": 3,
+      "n_passed": 3,
+      "checks": [
+        {
+          "constraint": "exact_line_count(n=3)",
+          "passed": true
+        },
+        {
+          "constraint": "must_not_include(substrings=['.', ',', '!', '?', ';'])",
+          "passed": true
+        },
+        {
+          "constraint": "word_count_max(n=20)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "json-user",
+      "constraint_satisfaction": 1.0,
+      "all_passed": true,
+      "n_constraints": 3,
+      "n_passed": 3,
+      "checks": [
+        {
+          "constraint": "json_valid",
+          "passed": true
+        },
+        {
+          "constraint": "json_has_keys(keys=['name', 'age'])",
+          "passed": true
+        },
+        {
+          "constraint": "no_markdown",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "water-cycle-summary",
+      "constraint_satisfaction": 1.0,
+      "all_passed": true,
+      "n_constraints": 2,
+      "n_passed": 2,
+      "checks": [
+        {
+          "constraint": "max_sentences(n=3)",
+          "passed": true
+        },
+        {
+          "constraint": "forbidden_words(words=['evaporation'])",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "unit-test-list",
+      "constraint_satisfaction": 0.5,
+      "all_passed": false,
+      "n_constraints": 2,
+      "n_passed": 1,
+      "checks": [
+        {
+          "constraint": "exact_line_count(n=5)",
+          "passed": false
+        },
+        {
+          "constraint": "regex_match(pattern=(?m)^- .+)",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "api-one-sentence",
+      "constraint_satisfaction": 1.0,
+      "all_passed": true,
+      "n_constraints": 2,
+      "n_passed": 2,
+      "checks": [
+        {
+          "constraint": "max_sentences(n=1)",
+          "passed": true
+        },
+        {
+          "constraint": "no_markdown",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "product-keywords",
+      "constraint_satisfaction": 1.0,
+      "all_passed": true,
+      "n_constraints": 2,
+      "n_passed": 2,
+      "checks": [
+        {
+          "constraint": "max_sentences(n=2)",
+          "passed": true
+        },
+        {
+          "constraint": "must_include_all(substrings=['insulated', 'BPA-free'])",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "id": "note-start-end",
+      "constraint_satisfaction": 0.5,
+      "all_passed": false,
+      "n_constraints": 2,
+      "n_passed": 1,
+      "checks": [
+        {
+          "constraint": "starts_with(prefix=Remember:)",
+          "passed": true
+        },
+        {
+          "constraint": "ends_with(suffix=.)",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "id": "ocean-word-limit",
+      "constraint_satisfaction": 1.0,
+      "all_passed": true,
+      "n_constraints": 1,
+      "n_passed": 1,
+      "checks": [
+        {
+          "constraint": "word_count_max(n=15)",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Core eval and tests need only the standard library.
+# Live model runs additionally need:
+anthropic>=0.40

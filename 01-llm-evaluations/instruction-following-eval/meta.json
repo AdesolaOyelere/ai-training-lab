@@ -1,0 +1,8 @@
+{
+  "title": "Instruction-Following Eval",
+  "slug": "instruction-following-eval",
+  "category": "01-llm-evaluations",
+  "status": "done",
+  "skills": ["evaluation", "verifiable-constraints", "benchmark-design", "python"],
+  "summary": "Grades model outputs against programmatically checkable constraints (word counts, required keywords, valid JSON, structure) with no subjective judging."
+}
