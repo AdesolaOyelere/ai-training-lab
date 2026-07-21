@@ -18,6 +18,7 @@ The table below is generated from each project's `meta.json` (run
 | [Reasoning-Trace Generator](05-synthetic-data/reasoning-trace-generator/) | `05-synthetic-data` | ✅ | Generates step-by-step reasoning traces and keeps only those an independent reference verifies, with dedup and length filtering — rejection sampling for a clean training set. |
 | [Tool-Calling Eval Harness](06-agentic-tasks/tool-calling-eval-harness/) | `06-agentic-tasks` | ✅ | Scores an agent's tool calls on schema validity, tool selection, and argument correctness against a tool catalog and expected calls, rolled up into tracked rates. |
 | [Chat Format Converter](07-finetuning/chat-format-converter/) | `07-finetuning` | ✅ | Converts SFT chat data between ShareGPT, OpenAI messages, and prompt/response formats via a single normalized representation, with validation and clear errors. |
+| [Summary Quality Rubric](08-annotation-guidelines/summary-quality-rubric/) | `08-annotation-guidelines` | ✅ | An annotation handbook for rating summary quality (coverage, faithfulness, conciseness, fluency) with a faithfulness gate, plus executable rubric code that reproduces every gold calibration label. |
 | [Math Word Problems (Graded)](09-reasoning-datasets/math-word-problems-graded/) | `09-reasoning-datasets` | ✅ | A math word-problem dataset with a robust final-answer checker that normalizes numbers, treats equivalent fractions as equal, and matches text labels — then grades a whole set by type. |
 | [JSONL Validator](10-tooling/jsonl-validator/) | `10-tooling` | ✅ | A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI. |
 <!-- INDEX:TABLE:END -->
@@ -113,7 +114,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `loss-curve-reader` — parse and summarize training logs
 
 ### 08 · Annotation Guidelines & Rubrics
-- ⬜ `annotation-handbook-summarization` — full handbook for a labeling task
+- ✅ `summary-quality-rubric` — full handbook + executable rubric for summary labeling
 - ⬜ `edge-case-catalog` — the tricky cases every annotator hits
 - ⬜ `calibration-example-set` — gold examples with reasoning
 - ⬜ `qa-spotcheck-protocol` — quality-control sampling protocol

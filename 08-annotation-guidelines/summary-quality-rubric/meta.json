@@ -1,0 +1,8 @@
+{
+  "title": "Summary Quality Rubric",
+  "slug": "summary-quality-rubric",
+  "category": "08-annotation-guidelines",
+  "status": "done",
+  "skills": ["annotation-guidelines", "rubric-design", "calibration", "python"],
+  "summary": "An annotation handbook for rating summary quality (coverage, faithfulness, conciseness, fluency) with a faithfulness gate, plus executable rubric code that reproduces every gold calibration label."
+}

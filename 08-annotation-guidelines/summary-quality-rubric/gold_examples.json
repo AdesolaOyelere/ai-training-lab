@@ -1,0 +1,44 @@
+[
+  {
+    "id": "g1",
+    "note": "Excellent summary: complete, faithful, tight, clean.",
+    "rating": {"coverage": 4, "faithfulness": 4, "conciseness": 4, "fluency": 4},
+    "label": "accept"
+  },
+  {
+    "id": "g2",
+    "note": "Solid, minor verbosity, still acceptable.",
+    "rating": {"coverage": 4, "faithfulness": 4, "conciseness": 3, "fluency": 3},
+    "label": "accept"
+  },
+  {
+    "id": "g3",
+    "note": "Covers the gist but misses a key point; fixable.",
+    "rating": {"coverage": 2, "faithfulness": 3, "conciseness": 3, "fluency": 3},
+    "label": "revise"
+  },
+  {
+    "id": "g4",
+    "note": "Fluent and concise but invents a fact -> faithfulness gate fails.",
+    "rating": {"coverage": 3, "faithfulness": 1, "conciseness": 4, "fluency": 4},
+    "label": "reject"
+  },
+  {
+    "id": "g5",
+    "note": "Weak across the board.",
+    "rating": {"coverage": 1, "faithfulness": 2, "conciseness": 2, "fluency": 2},
+    "label": "reject"
+  },
+  {
+    "id": "g6",
+    "note": "Good coverage and faithful, a little clunky -> borderline accept.",
+    "rating": {"coverage": 3, "faithfulness": 3, "conciseness": 3, "fluency": 3},
+    "label": "accept"
+  },
+  {
+    "id": "g7",
+    "note": "Faithful and readable but thin coverage -> revise.",
+    "rating": {"coverage": 2, "faithfulness": 4, "conciseness": 4, "fluency": 4},
+    "label": "revise"
+  }
+]

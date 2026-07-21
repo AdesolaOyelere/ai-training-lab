@@ -1,0 +1,51 @@
+{
+  "report": {
+    "n": 7,
+    "agreement": 1.0,
+    "mismatches": []
+  },
+  "detail": [
+    {
+      "id": "g1",
+      "score": 4.0,
+      "decision": "accept",
+      "gold": "accept"
+    },
+    {
+      "id": "g2",
+      "score": 3.7,
+      "decision": "accept",
+      "gold": "accept"
+    },
+    {
+      "id": "g3",
+      "score": 2.65,
+      "decision": "revise",
+      "gold": "revise"
+    },
+    {
+      "id": "g4",
+      "score": 2.6,
+      "decision": "reject",
+      "gold": "reject"
+    },
+    {
+      "id": "g5",
+      "score": 1.65,
+      "decision": "reject",
+      "gold": "reject"
+    },
+    {
+      "id": "g6",
+      "score": 3.0,
+      "decision": "accept",
+      "gold": "accept"
+    },
+    {
+      "id": "g7",
+      "score": 3.3,
+      "decision": "revise",
+      "gold": "revise"
+    }
+  ]
+}
