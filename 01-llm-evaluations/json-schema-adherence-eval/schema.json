@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "sentiment": {
+      "type": "string",
+      "required": true,
+      "enum": ["positive", "negative", "neutral"]
+    },
+    "confidence": {
+      "type": "number",
+      "required": true
+    }
+  }
+}

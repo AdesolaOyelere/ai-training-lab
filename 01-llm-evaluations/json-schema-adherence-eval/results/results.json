@@ -1,0 +1,53 @@
+{
+  "n": 8,
+  "conformance_rate": 0.5,
+  "n_conformant": 4,
+  "failure_reasons": {
+    "enum": 1,
+    "invalid_json": 1,
+    "missing": 1,
+    "type": 1
+  },
+  "per_item": [
+    {
+      "conformant": true,
+      "errors": []
+    },
+    {
+      "conformant": true,
+      "errors": []
+    },
+    {
+      "conformant": false,
+      "errors": [
+        "invalid_json"
+      ]
+    },
+    {
+      "conformant": true,
+      "errors": []
+    },
+    {
+      "conformant": false,
+      "errors": [
+        "type:confidence"
+      ]
+    },
+    {
+      "conformant": false,
+      "errors": [
+        "missing:sentiment"
+      ]
+    },
+    {
+      "conformant": false,
+      "errors": [
+        "enum:sentiment"
+      ]
+    },
+    {
+      "conformant": true,
+      "errors": []
+    }
+  ]
+}

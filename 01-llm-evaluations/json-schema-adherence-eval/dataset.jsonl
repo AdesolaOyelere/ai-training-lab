@@ -1,0 +1,8 @@
+{"id": "s1", "output": "{\"sentiment\": \"positive\", \"confidence\": 0.9}"}
+{"id": "s2", "output": "{\"sentiment\": \"negative\", \"confidence\": 0.4}"}
+{"id": "s3", "output": "Here is the result: {\"sentiment\": \"positive\", \"confidence\": 0.8}"}
+{"id": "s4", "output": "{\"sentiment\": \"neutral\", \"confidence\": 0.5}"}
+{"id": "s5", "output": "{\"sentiment\": \"positive\", \"confidence\": \"high\"}"}
+{"id": "s6", "output": "{\"confidence\": 0.7}"}
+{"id": "s7", "output": "{\"sentiment\": \"mixed\", \"confidence\": 0.6}"}
+{"id": "s8", "output": "{\"sentiment\": \"negative\", \"confidence\": 0.95, \"note\": \"extra field is fine\"}"}

@@ -1,0 +1,8 @@
+{
+  "title": "JSON Schema Adherence Eval",
+  "slug": "json-schema-adherence-eval",
+  "category": "01-llm-evaluations",
+  "status": "done",
+  "skills": ["evaluation", "structured-output", "schema-validation", "python"],
+  "summary": "Measures how reliably model outputs conform to a required JSON schema and breaks failures down by reason — invalid JSON, wrong type, missing field, out-of-range enum."
+}
