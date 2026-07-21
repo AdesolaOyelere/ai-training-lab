@@ -1,0 +1,8 @@
+{"id": "m1", "output": "Each notebook is $3, and 400 * 3 = 1,200. Final answer: $1,200."}
+{"id": "m2", "output": "3 weeks is 21 days. 15 * 21 = 315. The answer is 315 pages."}
+{"id": "m3", "output": "Halving 3/4 gives 3/8. Answer: 3/8 cup."}
+{"id": "m4", "output": "Speed = distance / time = 240 / 3 = 80 km/h."}
+{"id": "m5", "output": "91 factors as 7 times 13, so it is not prime. Answer: No."}
+{"id": "m6", "output": "A dozen is 12, so 3/12 which reduces to 1/4. The answer is 1/4."}
+{"id": "m7", "output": "25% of 40 is 10, so the price is 40 minus 10. I'll say the answer is 25."}
+{"id": "m8", "output": "Rounding 3.14159 to two decimals gives 3.14159 -> 3.1416... actually 3.14. Final answer: 3.14."}

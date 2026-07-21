@@ -1,0 +1,8 @@
+{
+  "title": "Prompt Linter",
+  "slug": "prompt-linter",
+  "category": "02-prompt-engineering",
+  "status": "done",
+  "skills": ["prompt-engineering", "static-analysis", "python"],
+  "summary": "Flags prompt anti-patterns (no output format, undelimited input, conflicting length, vague quantifiers, structure without an example) and scores a prompt 0-100 — best practices as code."
+}

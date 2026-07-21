@@ -1,0 +1,8 @@
+{
+  "title": "Math Word Problems (Graded)",
+  "slug": "math-word-problems-graded",
+  "category": "09-reasoning-datasets",
+  "status": "done",
+  "skills": ["dataset-design", "answer-checking", "reasoning", "python"],
+  "summary": "A math word-problem dataset with a robust final-answer checker that normalizes numbers, treats equivalent fractions as equal, and matches text labels — then grades a whole set by type."
+}

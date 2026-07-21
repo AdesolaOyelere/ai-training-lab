@@ -1,0 +1,51 @@
+{
+  "n": 8,
+  "accuracy": 0.875,
+  "accuracy_by_type": {
+    "number": 0.8,
+    "fraction": 1.0,
+    "text": 1.0
+  },
+  "per_item": [
+    {
+      "id": "m1",
+      "answer_type": "number",
+      "correct": true
+    },
+    {
+      "id": "m2",
+      "answer_type": "number",
+      "correct": true
+    },
+    {
+      "id": "m3",
+      "answer_type": "fraction",
+      "correct": true
+    },
+    {
+      "id": "m4",
+      "answer_type": "number",
+      "correct": true
+    },
+    {
+      "id": "m5",
+      "answer_type": "text",
+      "correct": true
+    },
+    {
+      "id": "m6",
+      "answer_type": "fraction",
+      "correct": true
+    },
+    {
+      "id": "m7",
+      "answer_type": "number",
+      "correct": false
+    },
+    {
+      "id": "m8",
+      "answer_type": "number",
+      "correct": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{"id": "p1", "note": "weak: filler, vague, no format", "prompt": "Please could you kindly give me some information about the text below and maybe a few key points?"}
+{"id": "p2", "note": "strong classification prompt", "prompt": "Classify the support ticket below into exactly one of: billing, shipping, technical. Respond with only the label.\n\nTicket:\n\"\"\"\nMy package never arrived.\n\"\"\""}
+{"id": "p3", "note": "conflicting length + no format", "prompt": "Summarize the following article comprehensively but keep it very short."}
+{"id": "p4", "note": "structured output without an example", "prompt": "Extract all people and dates from the text and return JSON."}
+{"id": "p5", "note": "strong structured prompt with example", "prompt": "Extract people and dates from the text below and return JSON like {\"people\": [], \"dates\": []}.\n\nText:\n\"\"\"\nJohn met Mary on 2020-01-01.\n\"\"\""}
+{"id": "p6", "note": "shouting + vague", "prompt": "WRITE A REALLY GOOD DETAILED ANSWER and include several RELEVANT points AS NEEDED."}

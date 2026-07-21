@@ -12,11 +12,13 @@ The table below is generated from each project's `meta.json` (run
 | Project | Category | Status | Summary |
 |---|---|---|---|
 | [Instruction-Following Eval](01-llm-evaluations/instruction-following-eval/) | `01-llm-evaluations` | ✅ | Grades model outputs against programmatically checkable constraints (word counts, required keywords, valid JSON, structure) with no subjective judging. |
+| [Prompt Linter](02-prompt-engineering/prompt-linter/) | `02-prompt-engineering` | ✅ | Flags prompt anti-patterns (no output format, undelimited input, conflicting length, vague quantifiers, structure without an example) and scores a prompt 0-100 — best practices as code. |
 | [Inter-Annotator Agreement](03-rlhf-preference-data/inter-annotator-agreement/) | `03-rlhf-preference-data` | ✅ | Computes percent agreement, Cohen's kappa, and Fleiss' kappa from annotation rows to measure how much labelers agree beyond chance — validated against textbook values. |
 | [Prompt-Injection Detector](04-red-teaming-safety/prompt-injection-detector/) | `04-red-teaming-safety` | ✅ | A defensive rule-based detector that flags injection attempts in untrusted content (override, exfiltration, role spoofing, destructive commands), scored with precision/recall/F1 against a labeled set. |
 | [Reasoning-Trace Generator](05-synthetic-data/reasoning-trace-generator/) | `05-synthetic-data` | ✅ | Generates step-by-step reasoning traces and keeps only those an independent reference verifies, with dedup and length filtering — rejection sampling for a clean training set. |
 | [Tool-Calling Eval Harness](06-agentic-tasks/tool-calling-eval-harness/) | `06-agentic-tasks` | ✅ | Scores an agent's tool calls on schema validity, tool selection, and argument correctness against a tool catalog and expected calls, rolled up into tracked rates. |
 | [Chat Format Converter](07-finetuning/chat-format-converter/) | `07-finetuning` | ✅ | Converts SFT chat data between ShareGPT, OpenAI messages, and prompt/response formats via a single normalized representation, with validation and clear errors. |
+| [Math Word Problems (Graded)](09-reasoning-datasets/math-word-problems-graded/) | `09-reasoning-datasets` | ✅ | A math word-problem dataset with a robust final-answer checker that normalizes numbers, treats equivalent fractions as equal, and matches text labels — then grades a whole set by type. |
 | [JSONL Validator](10-tooling/jsonl-validator/) | `10-tooling` | ✅ | A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI. |
 <!-- INDEX:TABLE:END -->
 
@@ -39,7 +41,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `pairwise-model-comparison-arena` — Elo from pairwise judgments
 
 ### 02 · Prompt Engineering
-- ⬜ `prompt-pattern-cookbook` — catalog of patterns with before/after outputs
+- ✅ `prompt-linter` — flag prompt anti-patterns and score prompt quality
 - ⬜ `few-shot-vs-zeroshot-ablation` — measured effect of exemplars
 - ⬜ `chain-of-thought-study` — CoT vs direct on reasoning tasks
 - ⬜ `system-prompt-design-lab` — persona/constraint system-prompt studies
@@ -121,7 +123,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `annotation-throughput-tracker` — track speed vs quality
 
 ### 09 · Reasoning & Domain Datasets
-- ⬜ `math-word-problems-graded` — problems with step-checked solutions
+- ✅ `math-word-problems-graded` — problems with step-checked solutions
 - ⬜ `logic-puzzles-with-checkers` — puzzles + programmatic verifiers
 - ⬜ `code-review-qa-pairs` — review question/answer pairs
 - ⬜ `factual-qa-with-citations` — answers with source citations

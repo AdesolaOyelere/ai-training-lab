@@ -1,0 +1,8 @@
+{"id": "m1", "question": "A store sells notebooks for $3 each. How much do 400 notebooks cost?", "answer": "1200", "answer_type": "number", "solution": "400 * 3 = 1200."}
+{"id": "m2", "question": "Sarah reads 15 pages a day. How many pages in 3 weeks?", "answer": "315", "answer_type": "number", "solution": "15 * 21 = 315."}
+{"id": "m3", "question": "A recipe needs 3/4 cup of sugar. If you halve it, how much sugar?", "answer": "3/8", "answer_type": "fraction", "solution": "Half of 3/4 is 3/8."}
+{"id": "m4", "question": "A train travels 240 km in 3 hours. What is its average speed in km/h?", "answer": "80", "answer_type": "number", "solution": "240 / 3 = 80."}
+{"id": "m5", "question": "Is 91 a prime number?", "answer": "no", "answer_type": "text", "solution": "91 = 7 * 13, so no."}
+{"id": "m6", "question": "What fraction of a dozen is 3 eggs?", "answer": "1/4", "answer_type": "fraction", "solution": "3/12 = 1/4."}
+{"id": "m7", "question": "A shirt is $40 with 25% off. What is the sale price?", "answer": "30", "answer_type": "number", "solution": "40 - 10 = 30."}
+{"id": "m8", "question": "Round 3.14159 to two decimal places.", "answer": "3.14", "answer_type": "number", "solution": "3.14."}

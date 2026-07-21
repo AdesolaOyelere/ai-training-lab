@@ -1,0 +1,107 @@
+[
+  {
+    "id": "p1",
+    "note": "weak: filler, vague, no format",
+    "score": 21,
+    "issues": [
+      {
+        "rule": "no_output_format",
+        "severity": "high",
+        "message": "No output format is specified; say exactly what to return."
+      },
+      {
+        "rule": "undelimited_input",
+        "severity": "medium",
+        "message": "Input is referenced but not delimited; wrap it in triple backticks or tags."
+      },
+      {
+        "rule": "vague_quantifier",
+        "severity": "medium",
+        "message": "Vague wording (some, a few); be specific with numbers."
+      },
+      {
+        "rule": "unclear_task",
+        "severity": "high",
+        "message": "No clear task verb; start with an imperative like 'Summarize' or 'Classify'."
+      },
+      {
+        "rule": "politeness_filler",
+        "severity": "low",
+        "message": "Politeness filler adds noise; instructions can be direct."
+      }
+    ]
+  },
+  {
+    "id": "p2",
+    "note": "strong classification prompt",
+    "score": 100,
+    "issues": []
+  },
+  {
+    "id": "p3",
+    "note": "conflicting length + no format",
+    "score": 38,
+    "issues": [
+      {
+        "rule": "no_output_format",
+        "severity": "high",
+        "message": "No output format is specified; say exactly what to return."
+      },
+      {
+        "rule": "undelimited_input",
+        "severity": "medium",
+        "message": "Input is referenced but not delimited; wrap it in triple backticks or tags."
+      },
+      {
+        "rule": "conflicting_length",
+        "severity": "high",
+        "message": "Prompt asks to be both brief and comprehensive; pick one."
+      }
+    ]
+  },
+  {
+    "id": "p4",
+    "note": "structured output without an example",
+    "score": 76,
+    "issues": [
+      {
+        "rule": "undelimited_input",
+        "severity": "medium",
+        "message": "Input is referenced but not delimited; wrap it in triple backticks or tags."
+      },
+      {
+        "rule": "no_example_for_structure",
+        "severity": "medium",
+        "message": "Structured output requested without an example; show one."
+      }
+    ]
+  },
+  {
+    "id": "p5",
+    "note": "strong structured prompt with example",
+    "score": 100,
+    "issues": []
+  },
+  {
+    "id": "p6",
+    "note": "shouting + vague",
+    "score": 58,
+    "issues": [
+      {
+        "rule": "no_output_format",
+        "severity": "high",
+        "message": "No output format is specified; say exactly what to return."
+      },
+      {
+        "rule": "vague_quantifier",
+        "severity": "medium",
+        "message": "Vague wording (several, as needed, relevant); be specific with numbers."
+      },
+      {
+        "rule": "shouting",
+        "severity": "low",
+        "message": "Heavy ALL-CAPS emphasis; use it sparingly."
+      }
+    ]
+  }
+]

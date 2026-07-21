@@ -85,5 +85,5 @@ python scripts/gen_index.py
 ```
 
 <!-- INDEX:SUMMARY:START -->
-**7** projects tracked · ✅ 7 done · 🔨 0 in progress · ⬜ 0 planned
+**9** projects tracked · ✅ 9 done · 🔨 0 in progress · ⬜ 0 planned
 <!-- INDEX:SUMMARY:END -->
