@@ -1,0 +1,65 @@
+{
+  "n": 7,
+  "a_win_rate": 0.4286,
+  "b_win_rate": 0.1429,
+  "tie_rate": 0.4286,
+  "position_bias_rate": 0.2857,
+  "results": [
+    {
+      "id": "q1",
+      "winner": "a",
+      "consistent": true,
+      "order1_favored": "a",
+      "order2_favored": "a",
+      "position_bias": false
+    },
+    {
+      "id": "q2",
+      "winner": "b",
+      "consistent": true,
+      "order1_favored": "b",
+      "order2_favored": "b",
+      "position_bias": false
+    },
+    {
+      "id": "q3",
+      "winner": "a",
+      "consistent": true,
+      "order1_favored": "a",
+      "order2_favored": "a",
+      "position_bias": false
+    },
+    {
+      "id": "q4",
+      "winner": "a",
+      "consistent": true,
+      "order1_favored": "a",
+      "order2_favored": "a",
+      "position_bias": false
+    },
+    {
+      "id": "q5",
+      "winner": "tie",
+      "consistent": false,
+      "order1_favored": "a",
+      "order2_favored": "b",
+      "position_bias": true
+    },
+    {
+      "id": "q6",
+      "winner": "tie",
+      "consistent": false,
+      "order1_favored": "a",
+      "order2_favored": "b",
+      "position_bias": true
+    },
+    {
+      "id": "q7",
+      "winner": "tie",
+      "consistent": true,
+      "order1_favored": "tie",
+      "order2_favored": "tie",
+      "position_bias": false
+    }
+  ]
+}

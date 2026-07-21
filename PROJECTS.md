@@ -12,6 +12,7 @@ The table below is generated from each project's `meta.json` (run
 | Project | Category | Status | Summary |
 |---|---|---|---|
 | [Instruction-Following Eval](01-llm-evaluations/instruction-following-eval/) | `01-llm-evaluations` | ✅ | Grades model outputs against programmatically checkable constraints (word counts, required keywords, valid JSON, structure) with no subjective judging. |
+| [LLM-as-Judge Harness](01-llm-evaluations/llm-as-judge-harness/) | `01-llm-evaluations` | ✅ | Pairwise LLM-as-judge with order-swap debiasing: judges each pair in both orders, counts a win only on agreement, and reports a measured position-bias rate. |
 | [Prompt Linter](02-prompt-engineering/prompt-linter/) | `02-prompt-engineering` | ✅ | Flags prompt anti-patterns (no output format, undelimited input, conflicting length, vague quantifiers, structure without an example) and scores a prompt 0-100 — best practices as code. |
 | [Inter-Annotator Agreement](03-rlhf-preference-data/inter-annotator-agreement/) | `03-rlhf-preference-data` | ✅ | Computes percent agreement, Cohen's kappa, and Fleiss' kappa from annotation rows to measure how much labelers agree beyond chance — validated against textbook values. |
 | [Prompt-Injection Detector](04-red-teaming-safety/prompt-injection-detector/) | `04-red-teaming-safety` | ✅ | A defensive rule-based detector that flags injection attempts in untrusted content (override, exfiltration, role spoofing, destructive commands), scored with precision/recall/F1 against a labeled set. |
@@ -30,7 +31,7 @@ The table below is generated from each project's `meta.json` (run
 ### 01 · LLM Evaluations & Benchmarks
 - ✅ `instruction-following-eval` — rubric-based scoring of multi-constraint prompts
 - ⬜ `hallucination-faithfulness-eval` — faithfulness scoring against source context
-- ⬜ `llm-as-judge-harness` — judge with position/verbosity bias controls
+- ✅ `llm-as-judge-harness` — judge with position/verbosity bias controls
 - ⬜ `json-schema-adherence-eval` — structured-output conformance rate
 - ⬜ `summarization-quality-eval` — coverage / faithfulness / conciseness
 - ⬜ `rag-answer-grounding-eval` — is the answer supported by retrieved chunks

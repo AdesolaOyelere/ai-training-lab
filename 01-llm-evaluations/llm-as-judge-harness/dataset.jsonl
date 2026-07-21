@@ -1,0 +1,7 @@
+{"id": "q1", "question": "Explain recursion simply.", "answer_a": "Recursion is when a function calls itself. BETTER: with a base case to stop.", "answer_b": "Recursion is a loop thing.", "mock_biased": false}
+{"id": "q2", "question": "Best way to reverse a list in Python?", "answer_a": "Use a for loop and append backwards.", "answer_b": "Use list[::-1] or reversed(). BETTER and idiomatic.", "mock_biased": false}
+{"id": "q3", "question": "What is a hash map?", "answer_a": "A key-value store with O(1) average lookup. BETTER explanation.", "answer_b": "A kind of array.", "mock_biased": false}
+{"id": "q4", "question": "Define overfitting.", "answer_a": "When a model memorizes training data and generalizes poorly. BETTER.", "answer_b": "When a model is too big.", "mock_biased": false}
+{"id": "q5", "question": "Two equally good answers about REST.", "answer_a": "REST uses HTTP verbs over resources.", "answer_b": "REST models resources addressed by URLs.", "mock_biased": true}
+{"id": "q6", "question": "Two equally good answers about caching.", "answer_a": "Caching stores results to avoid recomputation.", "answer_b": "Caching keeps hot data close for speed.", "mock_biased": true}
+{"id": "q7", "question": "Both mention tradeoffs equally.", "answer_a": "It depends on the workload and constraints.", "answer_b": "There are tradeoffs to weigh per use case.", "mock_biased": false}

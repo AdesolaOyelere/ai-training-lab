@@ -1,0 +1,8 @@
+{
+  "title": "LLM-as-Judge Harness",
+  "slug": "llm-as-judge-harness",
+  "category": "01-llm-evaluations",
+  "status": "done",
+  "skills": ["evaluation", "llm-as-judge", "bias-control", "python"],
+  "summary": "Pairwise LLM-as-judge with order-swap debiasing: judges each pair in both orders, counts a win only on agreement, and reports a measured position-bias rate."
+}
