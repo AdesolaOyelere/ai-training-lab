@@ -1,0 +1,3 @@
+# Core estimator and tests: standard library only.
+# For exact model token counts you would add a real tokenizer, e.g.:
+# anthropic>=0.40

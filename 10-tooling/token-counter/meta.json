@@ -1,0 +1,8 @@
+{
+  "title": "Token & Cost Counter",
+  "slug": "token-counter",
+  "category": "10-tooling",
+  "status": "done",
+  "skills": ["cli", "cost-estimation", "tokenization", "python"],
+  "summary": "A CLI that estimates token counts with a transparent heuristic and computes exact API cost from a per-model price table, for budgeting text or sizing a JSONL dataset."
+}
