@@ -1,0 +1,22 @@
+{
+  "metrics": {
+    "n": 11,
+    "confusion": {
+      "tp": 6,
+      "fp": 0,
+      "tn": 5,
+      "fn": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "pii_counts_by_type": {
+    "email": 2,
+    "phone": 2,
+    "ssn": 1,
+    "credit_card": 1,
+    "ipv4": 1
+  },
+  "redaction_example": "Contact [REDACTED] or [REDACTED]."
+}

@@ -1,0 +1,8 @@
+{
+  "title": "PII Leak Detector",
+  "slug": "pii-leak-detector",
+  "category": "04-red-teaming-safety",
+  "status": "done",
+  "skills": ["ai-safety", "pii-detection", "redaction", "python"],
+  "summary": "Finds and redacts PII (emails, phones, SSNs, credit cards with a Luhn check, IPv4) in text, scored with precision/recall on a labeled set — a defensive scrubbing utility."
+}

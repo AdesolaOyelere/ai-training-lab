@@ -15,6 +15,7 @@ The table below is generated from each project's `meta.json` (run
 | [LLM-as-Judge Harness](01-llm-evaluations/llm-as-judge-harness/) | `01-llm-evaluations` | ✅ | Pairwise LLM-as-judge with order-swap debiasing: judges each pair in both orders, counts a win only on agreement, and reports a measured position-bias rate. |
 | [Prompt Linter](02-prompt-engineering/prompt-linter/) | `02-prompt-engineering` | ✅ | Flags prompt anti-patterns (no output format, undelimited input, conflicting length, vague quantifiers, structure without an example) and scores a prompt 0-100 — best practices as code. |
 | [Inter-Annotator Agreement](03-rlhf-preference-data/inter-annotator-agreement/) | `03-rlhf-preference-data` | ✅ | Computes percent agreement, Cohen's kappa, and Fleiss' kappa from annotation rows to measure how much labelers agree beyond chance — validated against textbook values. |
+| [PII Leak Detector](04-red-teaming-safety/pii-leak-detector/) | `04-red-teaming-safety` | ✅ | Finds and redacts PII (emails, phones, SSNs, credit cards with a Luhn check, IPv4) in text, scored with precision/recall on a labeled set — a defensive scrubbing utility. |
 | [Prompt-Injection Detector](04-red-teaming-safety/prompt-injection-detector/) | `04-red-teaming-safety` | ✅ | A defensive rule-based detector that flags injection attempts in untrusted content (override, exfiltration, role spoofing, destructive commands), scored with precision/recall/F1 against a labeled set. |
 | [Dedup & Diversity Scoring](05-synthetic-data/dedup-and-diversity-scoring/) | `05-synthetic-data` | ✅ | Removes near-duplicate dataset entries with character n-gram Jaccard similarity and scores diversity before and after — no embeddings, fully deterministic. |
 | [Reasoning-Trace Generator](05-synthetic-data/reasoning-trace-generator/) | `05-synthetic-data` | ✅ | Generates step-by-step reasoning traces and keeps only those an independent reference verifies, with dedup and length filtering — rejection sampling for a clean training set. |
@@ -76,7 +77,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `adversarial-prompt-taxonomy` — categorize adversarial inputs
 - ⬜ `jailbreak-pattern-catalog` — defensive analysis of known patterns
 - ⬜ `safety-rubric-annotation-guide` — how to label safety violations
-- ⬜ `pii-leak-detector` — flag PII in model outputs
+- ✅ `pii-leak-detector` — flag PII in model outputs
 - ⬜ `tool-use-guardrail-tests` — guardrails on dangerous tool calls
 - ⬜ `harmful-request-classifier` — classify request risk levels
 - ⬜ `sycophancy-eval` — does the model cave to pushback

@@ -1,0 +1,11 @@
+{"id": "n1", "has_pii": false, "text": "The meeting is scheduled for next Tuesday at 3pm in room 204."}
+{"id": "n2", "has_pii": false, "text": "Our return policy allows refunds within 30 days of purchase."}
+{"id": "n3", "has_pii": false, "text": "The recipe calls for 2 cups of flour and 3 eggs."}
+{"id": "n4", "has_pii": false, "text": "Version 1.2 was released; see the changelog for details."}
+{"id": "n5", "has_pii": false, "text": "The order total came to 149 dollars after the discount."}
+{"id": "p1", "has_pii": true, "text": "You can reach me at jane.doe@example.com or on my cell."}
+{"id": "p2", "has_pii": true, "text": "Call the office at (555) 123-4567 to confirm."}
+{"id": "p3", "has_pii": true, "text": "His SSN on file is 123-45-6789, please verify."}
+{"id": "p4", "has_pii": true, "text": "Payment card 4111 1111 1111 1111 was charged."}
+{"id": "p5", "has_pii": true, "text": "The server responded from 192.168.1.100 last night."}
+{"id": "p6", "has_pii": true, "text": "Email admin@site.org and phone 555.987.6543 for support."}
