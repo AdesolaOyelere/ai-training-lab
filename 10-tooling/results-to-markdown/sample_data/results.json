@@ -1,0 +1,11 @@
+{
+  "n_items": 8,
+  "mean_score": 0.8125,
+  "perfect_rate": 0.75,
+  "confusion": {"tp": 6, "fp": 0, "tn": 2, "fn": 0},
+  "per_item": [
+    {"id": "a1", "score": 1.0, "passed": true},
+    {"id": "a2", "score": 0.5, "passed": false},
+    {"id": "a3", "score": 1.0, "passed": true}
+  ]
+}

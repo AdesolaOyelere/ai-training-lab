@@ -1,0 +1,8 @@
+{
+  "title": "Results to Markdown",
+  "slug": "results-to-markdown",
+  "category": "10-tooling",
+  "status": "done",
+  "skills": ["cli", "reporting", "python"],
+  "summary": "Renders a metrics JSON file into a clean Markdown report — key/value table for scalars, dotted keys for nested objects, and a column table for lists of records."
+}

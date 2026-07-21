@@ -28,6 +28,7 @@ The table below is generated from each project's `meta.json` (run
 | [Summary Quality Rubric](08-annotation-guidelines/summary-quality-rubric/) | `08-annotation-guidelines` | ✅ | An annotation handbook for rating summary quality (coverage, faithfulness, conciseness, fluency) with a faithfulness gate, plus executable rubric code that reproduces every gold calibration label. |
 | [Math Word Problems (Graded)](09-reasoning-datasets/math-word-problems-graded/) | `09-reasoning-datasets` | ✅ | A math word-problem dataset with a robust final-answer checker that normalizes numbers, treats equivalent fractions as equal, and matches text labels — then grades a whole set by type. |
 | [JSONL Validator](10-tooling/jsonl-validator/) | `10-tooling` | ✅ | A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI. |
+| [Results to Markdown](10-tooling/results-to-markdown/) | `10-tooling` | ✅ | Renders a metrics JSON file into a clean Markdown report — key/value table for scalars, dotted keys for nested objects, and a column table for lists of records. |
 | [Token & Cost Counter](10-tooling/token-counter/) | `10-tooling` | ✅ | A CLI that estimates token counts with a transparent heuristic and computes exact API cost from a per-model price table, for budgeting text or sizing a JSONL dataset. |
 <!-- INDEX:TABLE:END -->
 
@@ -148,7 +149,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `dataset-deduper` — CLI near-duplicate remover
 - ✅ `token-counter` — CLI token/cost estimator
 - ⬜ `eval-runner` — CLI to run any eval in this repo
-- ⬜ `results-to-markdown` — turn results.json into a report table
+- ✅ `results-to-markdown` — turn results.json into a report table
 - ⬜ `prompt-diff-viewer` — side-by-side prompt/version diff
 - ⬜ `dataset-stats-dashboard` — small TUI/GUI dataset explorer
 - ⬜ `jsonl-to-csv-converter` — robust format converter
