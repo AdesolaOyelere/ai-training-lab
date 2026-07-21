@@ -1,0 +1,8 @@
+{
+  "title": "Reasoning-Trace Generator",
+  "slug": "reasoning-trace-generator",
+  "category": "05-synthetic-data",
+  "status": "done",
+  "skills": ["synthetic-data", "rejection-sampling", "verification", "python"],
+  "summary": "Generates step-by-step reasoning traces and keeps only those an independent reference verifies, with dedup and length filtering — rejection sampling for a clean training set."
+}

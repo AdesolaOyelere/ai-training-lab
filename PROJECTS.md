@@ -12,6 +12,7 @@ The table below is generated from each project's `meta.json` (run
 | Project | Category | Status | Summary |
 |---|---|---|---|
 | [Instruction-Following Eval](01-llm-evaluations/instruction-following-eval/) | `01-llm-evaluations` | ✅ | Grades model outputs against programmatically checkable constraints (word counts, required keywords, valid JSON, structure) with no subjective judging. |
+| [Reasoning-Trace Generator](05-synthetic-data/reasoning-trace-generator/) | `05-synthetic-data` | ✅ | Generates step-by-step reasoning traces and keeps only those an independent reference verifies, with dedup and length filtering — rejection sampling for a clean training set. |
 | [JSONL Validator](10-tooling/jsonl-validator/) | `10-tooling` | ✅ | A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI. |
 <!-- INDEX:TABLE:END -->
 
@@ -20,7 +21,7 @@ The table below is generated from each project's `meta.json` (run
 ## Backlog
 
 ### 01 · LLM Evaluations & Benchmarks
-- 🔨 `instruction-following-eval` — rubric-based scoring of multi-constraint prompts
+- ✅ `instruction-following-eval` — rubric-based scoring of multi-constraint prompts
 - ⬜ `hallucination-faithfulness-eval` — faithfulness scoring against source context
 - ⬜ `llm-as-judge-harness` — judge with position/verbosity bias controls
 - ⬜ `json-schema-adherence-eval` — structured-output conformance rate
@@ -72,7 +73,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `content-policy-boundary-cases` — the hard middle of a policy
 
 ### 05 · Synthetic Data Generation
-- 🔨 `reasoning-trace-generator` — generate + quality-filter reasoning traces
+- ✅ `reasoning-trace-generator` — generate + quality-filter reasoning traces
 - ⬜ `instruction-response-pipeline` — instruction -> response with filtering
 - ⬜ `self-critique-refinement-loop` — draft -> critique -> revise
 - ⬜ `dedup-and-diversity-scoring` — near-dup removal + diversity metric
@@ -128,7 +129,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `constraint-satisfaction-puzzles` — CSPs with solvers as checkers
 
 ### 10 · Tooling, CLIs & Mini-Apps
-- 🔨 `jsonl-validator` — CLI that lints and validates JSONL datasets
+- ✅ `jsonl-validator` — CLI that lints and validates JSONL datasets
 - ⬜ `dataset-deduper` — CLI near-duplicate remover
 - ⬜ `token-counter` — CLI token/cost estimator
 - ⬜ `eval-runner` — CLI to run any eval in this repo
