@@ -1,0 +1,8 @@
+{
+  "title": "ReAct Agent (Mini)",
+  "slug": "react-agent-mini",
+  "category": "06-agentic-tasks",
+  "status": "done",
+  "skills": ["agentic", "react-loop", "tool-use", "python"],
+  "summary": "A minimal ReAct loop (thought -> action -> observation -> answer) over safe mock tools, with a pluggable policy, full trace recording, and step/tool guards."
+}

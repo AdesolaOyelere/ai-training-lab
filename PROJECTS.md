@@ -20,6 +20,7 @@ The table below is generated from each project's `meta.json` (run
 | [Prompt-Injection Detector](04-red-teaming-safety/prompt-injection-detector/) | `04-red-teaming-safety` | ✅ | A defensive rule-based detector that flags injection attempts in untrusted content (override, exfiltration, role spoofing, destructive commands), scored with precision/recall/F1 against a labeled set. |
 | [Dedup & Diversity Scoring](05-synthetic-data/dedup-and-diversity-scoring/) | `05-synthetic-data` | ✅ | Removes near-duplicate dataset entries with character n-gram Jaccard similarity and scores diversity before and after — no embeddings, fully deterministic. |
 | [Reasoning-Trace Generator](05-synthetic-data/reasoning-trace-generator/) | `05-synthetic-data` | ✅ | Generates step-by-step reasoning traces and keeps only those an independent reference verifies, with dedup and length filtering — rejection sampling for a clean training set. |
+| [ReAct Agent (Mini)](06-agentic-tasks/react-agent-mini/) | `06-agentic-tasks` | ✅ | A minimal ReAct loop (thought -> action -> observation -> answer) over safe mock tools, with a pluggable policy, full trace recording, and step/tool guards. |
 | [Tool-Calling Eval Harness](06-agentic-tasks/tool-calling-eval-harness/) | `06-agentic-tasks` | ✅ | Scores an agent's tool calls on schema validity, tool selection, and argument correctness against a tool catalog and expected calls, rolled up into tracked rates. |
 | [Chat Format Converter](07-finetuning/chat-format-converter/) | `07-finetuning` | ✅ | Converts SFT chat data between ShareGPT, OpenAI messages, and prompt/response formats via a single normalized representation, with validation and clear errors. |
 | [SFT Data Prep](07-finetuning/sft-data-prep/) | `07-finetuning` | ✅ | Cleans raw prompt/response data into ready-to-train SFT messages format — whitespace, empties, placeholders, length bounds, dedup — with a per-stage drop report. |
@@ -101,7 +102,7 @@ The table below is generated from each project's `meta.json` (run
 - ✅ `tool-calling-eval-harness` — score tool-call correctness
 - ⬜ `multi-step-planning-tasks` — tasks needing a plan, with checkers
 - ⬜ `function-schema-validator` — validate tool-call args against schema
-- ⬜ `react-agent-mini` — a small ReAct loop over mock tools
+- ✅ `react-agent-mini` — a small ReAct loop over mock tools
 - ⬜ `web-search-agent-eval` — evaluate a (mocked) search agent
 - ⬜ `calculator-tool-agent` — arithmetic agent with a tool
 - ⬜ `file-ops-sandbox-tasks` — sandboxed file-operation tasks

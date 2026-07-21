@@ -1,0 +1,60 @@
+[
+  {
+    "question": "What is 12 * (3 + 4)?",
+    "answer": "84",
+    "stopped_reason": "answered",
+    "steps": [
+      {
+        "thought": "use calculator",
+        "action": "calculator",
+        "action_input": "12 * (3 + 4)",
+        "observation": "84"
+      }
+    ]
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": "Paris",
+    "stopped_reason": "answered",
+    "steps": [
+      {
+        "thought": "use lookup",
+        "action": "lookup",
+        "action_input": "capital of france",
+        "observation": "Paris"
+      }
+    ]
+  },
+  {
+    "question": "What is the largest planet?",
+    "answer": "Jupiter",
+    "stopped_reason": "answered",
+    "steps": [
+      {
+        "thought": "use lookup",
+        "action": "lookup",
+        "action_input": "largest planet",
+        "observation": "Jupiter"
+      }
+    ]
+  },
+  {
+    "question": "How many words are here: the quick brown fox jumps",
+    "answer": "5",
+    "stopped_reason": "answered",
+    "steps": [
+      {
+        "thought": "use wordcount",
+        "action": "wordcount",
+        "action_input": " the quick brown fox jumps",
+        "observation": "5"
+      }
+    ]
+  },
+  {
+    "question": "What is the meaning of life?",
+    "answer": "I don't know",
+    "stopped_reason": "answered",
+    "steps": []
+  }
+]
