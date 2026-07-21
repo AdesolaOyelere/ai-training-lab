@@ -26,6 +26,7 @@ The table below is generated from each project's `meta.json` (run
 | [Chat Format Converter](07-finetuning/chat-format-converter/) | `07-finetuning` | ✅ | Converts SFT chat data between ShareGPT, OpenAI messages, and prompt/response formats via a single normalized representation, with validation and clear errors. |
 | [SFT Data Prep](07-finetuning/sft-data-prep/) | `07-finetuning` | ✅ | Cleans raw prompt/response data into ready-to-train SFT messages format — whitespace, empties, placeholders, length bounds, dedup — with a per-stage drop report. |
 | [Summary Quality Rubric](08-annotation-guidelines/summary-quality-rubric/) | `08-annotation-guidelines` | ✅ | An annotation handbook for rating summary quality (coverage, faithfulness, conciseness, fluency) with a faithfulness gate, plus executable rubric code that reproduces every gold calibration label. |
+| [Logic Puzzles with Checkers](09-reasoning-datasets/logic-puzzles-with-checkers/) | `09-reasoning-datasets` | ✅ | Logic puzzles (seating, number placement, knights-and-knaves) each paired with a programmatic checker that validates any candidate solution by the rules, not by string match. |
 | [Math Word Problems (Graded)](09-reasoning-datasets/math-word-problems-graded/) | `09-reasoning-datasets` | ✅ | A math word-problem dataset with a robust final-answer checker that normalizes numbers, treats equivalent fractions as equal, and matches text labels — then grades a whole set by type. |
 | [JSONL Validator](10-tooling/jsonl-validator/) | `10-tooling` | ✅ | A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI. |
 | [Results to Markdown](10-tooling/results-to-markdown/) | `10-tooling` | ✅ | Renders a metrics JSON file into a clean Markdown report — key/value table for scalars, dotted keys for nested objects, and a column table for lists of records. |
@@ -134,7 +135,7 @@ The table below is generated from each project's `meta.json` (run
 
 ### 09 · Reasoning & Domain Datasets
 - ✅ `math-word-problems-graded` — problems with step-checked solutions
-- ⬜ `logic-puzzles-with-checkers` — puzzles + programmatic verifiers
+- ✅ `logic-puzzles-with-checkers` — puzzles + programmatic verifiers
 - ⬜ `code-review-qa-pairs` — review question/answer pairs
 - ⬜ `factual-qa-with-citations` — answers with source citations
 - ⬜ `unit-conversion-dataset` — conversions with a checker

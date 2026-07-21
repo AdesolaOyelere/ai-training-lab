@@ -1,0 +1,30 @@
+{
+  "seating": {
+    "solution": [
+      "A",
+      "D",
+      "C",
+      "B"
+    ],
+    "unique": true,
+    "checker_confirms": true
+  },
+  "numbers": {
+    "solution": {
+      "w": 1,
+      "x": 4,
+      "y": 2,
+      "z": 3
+    },
+    "unique": true,
+    "checker_confirms": true
+  },
+  "knights_knaves": {
+    "solution": [
+      false,
+      true
+    ],
+    "unique": true,
+    "checker_confirms": true
+  }
+}

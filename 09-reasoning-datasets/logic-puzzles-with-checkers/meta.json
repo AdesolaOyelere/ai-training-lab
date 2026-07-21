@@ -1,0 +1,8 @@
+{
+  "title": "Logic Puzzles with Checkers",
+  "slug": "logic-puzzles-with-checkers",
+  "category": "09-reasoning-datasets",
+  "status": "done",
+  "skills": ["reasoning-dataset", "verifiers", "constraint-solving", "python"],
+  "summary": "Logic puzzles (seating, number placement, knights-and-knaves) each paired with a programmatic checker that validates any candidate solution by the rules, not by string match."
+}
