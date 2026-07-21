@@ -1,0 +1,7 @@
+{
+  "n": 8,
+  "longer_chosen_rate": 0.75,
+  "mean_length_delta": 10.25,
+  "point_biserial": 0.5512,
+  "verdict": "strong length bias \u2014 length-balance the data or add a length penalty"
+}

@@ -1,0 +1,8 @@
+{"id": "a1", "chosen": "The mitochondria is the powerhouse of the cell, generating ATP through cellular respiration to fuel the organism's many biological processes and functions.", "rejected": "It makes energy."}
+{"id": "a2", "chosen": "Photosynthesis converts sunlight, water, and carbon dioxide into glucose and oxygen, and it happens mainly in the chloroplasts of plant cells during the daytime.", "rejected": "Plants use light to make food."}
+{"id": "a3", "chosen": "Recursion is when a function calls itself with a smaller input until it reaches a base case that stops the chain of calls and lets the results unwind.", "rejected": "A function calling itself."}
+{"id": "a4", "chosen": "Paris is the capital of France, a major European cultural and economic hub located on the Seine river with a long and storied history.", "rejected": "Paris."}
+{"id": "a5", "chosen": "Yes, water boils at 100 degrees Celsius at sea level under standard atmospheric pressure, though the boiling point drops at higher altitudes.", "rejected": "At 100C."}
+{"id": "a6", "chosen": "Short and correct.", "rejected": "This response rambles on at considerable length without ever actually answering the question that was asked of it clearly."}
+{"id": "a7", "chosen": "The answer is 42, computed directly.", "rejected": "Let me think about this at length before finally telling you the answer is 42 after much unnecessary deliberation."}
+{"id": "a8", "chosen": "HTTP is a stateless protocol used to transfer web content between clients and servers over TCP connections.", "rejected": "HTTP moves web pages around the internet between browsers and servers."}
