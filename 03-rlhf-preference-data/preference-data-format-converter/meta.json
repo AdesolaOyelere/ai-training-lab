@@ -1,0 +1,8 @@
+{
+  "title": "Preference Data Format Converter",
+  "slug": "preference-data-format-converter",
+  "category": "03-rlhf-preference-data",
+  "status": "done",
+  "skills": ["rlhf", "data-engineering", "preference-data", "python"],
+  "summary": "Converts preference data between pairwise, ranked-list, and binary (KTO-style) formats via a normalized ranking, expanding rankings into all ordered better/worse pairs."
+}

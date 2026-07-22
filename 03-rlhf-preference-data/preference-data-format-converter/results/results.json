@@ -1,0 +1,15 @@
+{
+  "n_ranked": 2,
+  "n_pairwise": 4,
+  "n_binary": 5,
+  "pairwise_sample": {
+    "prompt": "Explain gravity simply.",
+    "chosen": "Gravity pulls objects with mass toward each other.",
+    "rejected": "Gravity is a force."
+  },
+  "binary_sample": {
+    "prompt": "Explain gravity simply.",
+    "completion": "Gravity pulls objects with mass toward each other.",
+    "label": true
+  }
+}
