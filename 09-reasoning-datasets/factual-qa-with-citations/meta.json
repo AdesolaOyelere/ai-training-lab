@@ -1,0 +1,8 @@
+{
+  "title": "Factual QA with Citations",
+  "slug": "factual-qa-with-citations",
+  "category": "09-reasoning-datasets",
+  "status": "done",
+  "skills": ["reasoning-dataset", "attribution", "rag-faithfulness", "python"],
+  "summary": "A citation-grounded QA dataset with a verifier that checks each answer's citations point to real source sentences and that those sentences actually support the answer."
+}

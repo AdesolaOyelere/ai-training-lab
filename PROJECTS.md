@@ -35,6 +35,7 @@ The table below is generated from each project's `meta.json` (run
 | [Stratified Leakage-Safe Split](07-finetuning/train-val-split-stratified/) | `07-finetuning` | ✅ | Splits a labeled dataset into train/val/test that preserves class balance and prevents leakage by keeping duplicate texts in the same split — deterministic given a seed. |
 | [Annotation Edge-Case Catalog](08-annotation-guidelines/edge-case-catalog/) | `08-annotation-guidelines` | ✅ | An edge-case handbook for sentiment annotation (negation, mixed, sarcasm, comparison, rhetorical, conditional) plus a detector that flags which tricky rule applies, kept in sync with the doc via gold routing. |
 | [Summary Quality Rubric](08-annotation-guidelines/summary-quality-rubric/) | `08-annotation-guidelines` | ✅ | An annotation handbook for rating summary quality (coverage, faithfulness, conciseness, fluency) with a faithfulness gate, plus executable rubric code that reproduces every gold calibration label. |
+| [Factual QA with Citations](09-reasoning-datasets/factual-qa-with-citations/) | `09-reasoning-datasets` | ✅ | A citation-grounded QA dataset with a verifier that checks each answer's citations point to real source sentences and that those sentences actually support the answer. |
 | [Logic Puzzles with Checkers](09-reasoning-datasets/logic-puzzles-with-checkers/) | `09-reasoning-datasets` | ✅ | Logic puzzles (seating, number placement, knights-and-knaves) each paired with a programmatic checker that validates any candidate solution by the rules, not by string match. |
 | [Math Word Problems (Graded)](09-reasoning-datasets/math-word-problems-graded/) | `09-reasoning-datasets` | ✅ | A math word-problem dataset with a robust final-answer checker that normalizes numbers, treats equivalent fractions as equal, and matches text labels — then grades a whole set by type. |
 | [JSONL Validator](10-tooling/jsonl-validator/) | `10-tooling` | ✅ | A dependency-free CLI that lints JSONL datasets — valid JSON, required and typed fields, unique keys — and exits non-zero on problems so it fits CI. |
@@ -146,7 +147,7 @@ The table below is generated from each project's `meta.json` (run
 - ✅ `math-word-problems-graded` — problems with step-checked solutions
 - ✅ `logic-puzzles-with-checkers` — puzzles + programmatic verifiers
 - ⬜ `code-review-qa-pairs` — review question/answer pairs
-- ⬜ `factual-qa-with-citations` — answers with source citations
+- ✅ `factual-qa-with-citations` — answers with source citations
 - ⬜ `unit-conversion-dataset` — conversions with a checker
 - ⬜ `sql-query-tasks-graded` — NL -> SQL with result-set checking
 - ⬜ `reading-comprehension-set` — passage + Q + graded answer

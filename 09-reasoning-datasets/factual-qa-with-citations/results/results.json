@@ -1,0 +1,45 @@
+{
+  "n": 5,
+  "grounded_rate": 0.4,
+  "mean_support": 0.4,
+  "n_with_invalid_citations": 1,
+  "per_item": [
+    {
+      "id": "c1",
+      "has_valid_citation": true,
+      "invalid_citations": [],
+      "support": 1.0,
+      "grounded": true
+    },
+    {
+      "id": "c2",
+      "has_valid_citation": true,
+      "invalid_citations": [],
+      "support": 1.0,
+      "grounded": true
+    },
+    {
+      "id": "c3",
+      "has_valid_citation": true,
+      "invalid_citations": [],
+      "support": 0.0,
+      "grounded": false
+    },
+    {
+      "id": "c4",
+      "has_valid_citation": true,
+      "invalid_citations": [],
+      "support": 0.0,
+      "grounded": false
+    },
+    {
+      "id": "c5",
+      "has_valid_citation": false,
+      "invalid_citations": [
+        "s9"
+      ],
+      "support": 0.0,
+      "grounded": false
+    }
+  ]
+}
