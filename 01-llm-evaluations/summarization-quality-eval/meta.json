@@ -1,0 +1,8 @@
+{
+  "title": "Summarization Quality Eval",
+  "slug": "summarization-quality-eval",
+  "category": "01-llm-evaluations",
+  "status": "done",
+  "skills": ["evaluation", "summarization", "faithfulness", "python"],
+  "summary": "Reference-based summary scoring on three axes — coverage of key points, faithfulness (hallucination proxy), and conciseness — deterministic and with no judge model."
+}
