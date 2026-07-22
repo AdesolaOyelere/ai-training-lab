@@ -1,0 +1,8 @@
+{"id": "q1", "gold": "12", "samples": ["12", "12", "10", "12", "9"]}
+{"id": "q2", "gold": "Paris", "samples": ["London", "Paris", "Paris", "Paris", "Paris"]}
+{"id": "q3", "gold": "42", "samples": ["42", "42", "42", "40", "42"]}
+{"id": "q4", "gold": "7", "samples": ["5", "7", "7", "6", "7"]}
+{"id": "q5", "gold": "1200", "samples": ["1,200", "1200", "$1200", "1100", "1200"]}
+{"id": "q6", "gold": "blue", "samples": ["red", "blue", "green", "blue", "yellow"]}
+{"id": "q7", "gold": "9", "samples": ["8", "9", "8", "9", "9"]}
+{"id": "q8", "gold": "3", "samples": ["4", "4", "3", "4", "5"]}

@@ -1,0 +1,64 @@
+{
+  "n": 8,
+  "single_sample_accuracy_first": 0.375,
+  "single_sample_accuracy_expected": 0.6,
+  "majority_vote_accuracy": 0.875,
+  "per_item": [
+    {
+      "id": "q1",
+      "vote": "12",
+      "vote_correct": true,
+      "agreement": 0.6,
+      "first_sample_correct": true
+    },
+    {
+      "id": "q2",
+      "vote": "paris",
+      "vote_correct": true,
+      "agreement": 0.8,
+      "first_sample_correct": false
+    },
+    {
+      "id": "q3",
+      "vote": "42",
+      "vote_correct": true,
+      "agreement": 0.8,
+      "first_sample_correct": true
+    },
+    {
+      "id": "q4",
+      "vote": "7",
+      "vote_correct": true,
+      "agreement": 0.6,
+      "first_sample_correct": false
+    },
+    {
+      "id": "q5",
+      "vote": "1200",
+      "vote_correct": true,
+      "agreement": 0.8,
+      "first_sample_correct": true
+    },
+    {
+      "id": "q6",
+      "vote": "blue",
+      "vote_correct": true,
+      "agreement": 0.4,
+      "first_sample_correct": false
+    },
+    {
+      "id": "q7",
+      "vote": "9",
+      "vote_correct": true,
+      "agreement": 0.6,
+      "first_sample_correct": false
+    },
+    {
+      "id": "q8",
+      "vote": "4",
+      "vote_correct": false,
+      "agreement": 0.6,
+      "first_sample_correct": false
+    }
+  ]
+}

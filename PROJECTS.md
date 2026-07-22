@@ -17,6 +17,7 @@ The table below is generated from each project's `meta.json` (run
 | [Summarization Quality Eval](01-llm-evaluations/summarization-quality-eval/) | `01-llm-evaluations` | ✅ | Reference-based summary scoring on three axes — coverage of key points, faithfulness (hallucination proxy), and conciseness — deterministic and with no judge model. |
 | [Few-Shot vs Zero-Shot Ablation](02-prompt-engineering/few-shot-vs-zeroshot-ablation/) | `02-prompt-engineering` | ✅ | A controlled ablation measuring accuracy as few-shot exemplars are added (0 -> 9), producing an honest, reproducible few-shot curve on an intent-classification task. |
 | [Prompt Linter](02-prompt-engineering/prompt-linter/) | `02-prompt-engineering` | ✅ | Flags prompt anti-patterns (no output format, undelimited input, conflicting length, vague quantifiers, structure without an example) and scores a prompt 0-100 — best practices as code. |
+| [Self-Consistency Voting](02-prompt-engineering/self-consistency-voting/) | `02-prompt-engineering` | ✅ | Majority vote over sampled answers (self-consistency) with answer normalization and a deterministic tie-break, measured against single-sample accuracy to quantify the gain. |
 | [Inter-Annotator Agreement](03-rlhf-preference-data/inter-annotator-agreement/) | `03-rlhf-preference-data` | ✅ | Computes percent agreement, Cohen's kappa, and Fleiss' kappa from annotation rows to measure how much labelers agree beyond chance — validated against textbook values. |
 | [Length-Bias Audit](03-rlhf-preference-data/length-bias-audit/) | `03-rlhf-preference-data` | ✅ | Audits a chosen/rejected preference dataset for length bias — longer-chosen rate, mean length delta, and point-biserial correlation — with a plain-language verdict. |
 | [Preference Data Format Converter](03-rlhf-preference-data/preference-data-format-converter/) | `03-rlhf-preference-data` | ✅ | Converts preference data between pairwise, ranked-list, and binary (KTO-style) formats via a normalized ranking, expanding rankings into all ordered better/worse pairs. |
@@ -65,7 +66,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `chain-of-thought-study` — CoT vs direct on reasoning tasks
 - ⬜ `system-prompt-design-lab` — persona/constraint system-prompt studies
 - ⬜ `structured-output-reliability` — JSON-mode reliability under stress
-- ⬜ `self-consistency-voting` — majority vote over sampled chains
+- ✅ `self-consistency-voting` — majority vote over sampled chains
 - ⬜ `prompt-compression-study` — token savings vs quality loss
 - ⬜ `role-persona-prompting` — persona effects on tone and accuracy
 - ⬜ `delimiter-and-formatting-study` — how structure changes obedience

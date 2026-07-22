@@ -1,0 +1,8 @@
+{
+  "title": "Self-Consistency Voting",
+  "slug": "self-consistency-voting",
+  "category": "02-prompt-engineering",
+  "status": "done",
+  "skills": ["prompt-engineering", "self-consistency", "evaluation", "python"],
+  "summary": "Majority vote over sampled answers (self-consistency) with answer normalization and a deterministic tie-break, measured against single-sample accuracy to quantify the gain."
+}
