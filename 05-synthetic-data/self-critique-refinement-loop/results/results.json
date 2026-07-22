@@ -1,0 +1,21 @@
+{
+  "final_text": "This guide explains how the system works in considerable detail across safety.",
+  "iterations": 2,
+  "converged": true,
+  "final_violations": [],
+  "trajectory": [
+    {
+      "text": "This  guide explains how the system works in considerable detail across many words",
+      "violations": [
+        "too_long",
+        "no_end_period",
+        "double_spaces",
+        "missing:safety"
+      ]
+    },
+    {
+      "text": "This guide explains how the system works in considerable detail across safety.",
+      "violations": []
+    }
+  ]
+}

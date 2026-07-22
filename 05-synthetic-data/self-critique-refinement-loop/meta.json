@@ -1,0 +1,8 @@
+{
+  "title": "Self-Critique Refinement Loop",
+  "slug": "self-critique-refinement-loop",
+  "category": "05-synthetic-data",
+  "status": "done",
+  "skills": ["synthetic-data", "self-refinement", "iterative-improvement", "python"],
+  "summary": "A deterministic draft -> critique -> revise loop that converges text to a constraint spec, recording the trajectory of violations falling to zero, with a keyword-vs-length oscillation guard."
+}
