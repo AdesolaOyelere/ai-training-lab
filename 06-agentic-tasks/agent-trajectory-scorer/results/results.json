@@ -1,0 +1,34 @@
+{
+  "n": 3,
+  "mean_success": 0.6667,
+  "mean_efficiency": 0.75,
+  "mean_validity": 0.6667,
+  "mean_no_loops": 0.8333,
+  "mean_overall": 0.7,
+  "per_trajectory": [
+    {
+      "id": "clean",
+      "success": 1.0,
+      "efficiency": 1.0,
+      "validity": 1.0,
+      "no_loops": 1.0,
+      "overall": 1.0
+    },
+    {
+      "id": "wandering",
+      "success": 1.0,
+      "efficiency": 0.5,
+      "validity": 1.0,
+      "no_loops": 1.0,
+      "overall": 0.9
+    },
+    {
+      "id": "looping_fail",
+      "success": 0.0,
+      "efficiency": 0.75,
+      "validity": 0.0,
+      "no_loops": 0.5,
+      "overall": 0.2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "task": {"expected_answer": "84", "optimal_steps": 1},
+    "trajectory": {
+      "id": "clean",
+      "answer": "84",
+      "steps": [{"action": "calculator", "input": "12 * 7", "observation": "84"}]
+    }
+  },
+  {
+    "task": {"expected_answer": "Paris", "optimal_steps": 1},
+    "trajectory": {
+      "id": "wandering",
+      "answer": "Paris",
+      "steps": [
+        {"action": "search", "input": "france", "observation": "a country in Europe"},
+        {"action": "search", "input": "france capital", "observation": "Paris"},
+        {"action": "lookup", "input": "capital of france", "observation": "Paris"}
+      ]
+    }
+  },
+  {
+    "task": {"expected_answer": "42", "optimal_steps": 1},
+    "trajectory": {
+      "id": "looping_fail",
+      "answer": "unknown",
+      "steps": [
+        {"action": "calculator", "input": "6 * 7", "observation": "error: bad expression"},
+        {"action": "calculator", "input": "6 * 7", "observation": "error: bad expression"}
+      ]
+    }
+  }
+]

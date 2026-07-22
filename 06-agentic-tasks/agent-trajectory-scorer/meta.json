@@ -1,0 +1,8 @@
+{
+  "title": "Agent Trajectory Scorer",
+  "slug": "agent-trajectory-scorer",
+  "category": "06-agentic-tasks",
+  "status": "done",
+  "skills": ["agentic-eval", "trajectory-scoring", "rubric", "python"],
+  "summary": "Scores an agent trajectory against a rubric — success, efficiency vs optimal steps, action validity, and loop avoidance — with a weighted overall for tracking agent quality."
+}
