@@ -1,0 +1,8 @@
+{
+  "title": "Harmful Request Classifier",
+  "slug": "harmful-request-classifier",
+  "category": "04-red-teaming-safety",
+  "status": "done",
+  "skills": ["ai-safety", "risk-triage", "classification", "python"],
+  "summary": "A transparent tiered classifier that triages requests into allow / caution / refuse with a refuse-outranks-caution rule, scored with accuracy and per-tier recall on a labeled set."
+}

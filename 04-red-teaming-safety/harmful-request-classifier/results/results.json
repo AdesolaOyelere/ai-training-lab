@@ -1,0 +1,26 @@
+{
+  "n": 12,
+  "accuracy": 1.0,
+  "per_tier_recall": {
+    "allow": 1.0,
+    "caution": 1.0,
+    "refuse": 1.0
+  },
+  "confusion": {
+    "allow": {
+      "allow": 4,
+      "caution": 0,
+      "refuse": 0
+    },
+    "caution": {
+      "allow": 0,
+      "caution": 4,
+      "refuse": 0
+    },
+    "refuse": {
+      "allow": 0,
+      "caution": 0,
+      "refuse": 4
+    }
+  }
+}

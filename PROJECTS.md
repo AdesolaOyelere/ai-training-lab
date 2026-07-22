@@ -18,6 +18,7 @@ The table below is generated from each project's `meta.json` (run
 | [Prompt Linter](02-prompt-engineering/prompt-linter/) | `02-prompt-engineering` | ✅ | Flags prompt anti-patterns (no output format, undelimited input, conflicting length, vague quantifiers, structure without an example) and scores a prompt 0-100 — best practices as code. |
 | [Inter-Annotator Agreement](03-rlhf-preference-data/inter-annotator-agreement/) | `03-rlhf-preference-data` | ✅ | Computes percent agreement, Cohen's kappa, and Fleiss' kappa from annotation rows to measure how much labelers agree beyond chance — validated against textbook values. |
 | [Length-Bias Audit](03-rlhf-preference-data/length-bias-audit/) | `03-rlhf-preference-data` | ✅ | Audits a chosen/rejected preference dataset for length bias — longer-chosen rate, mean length delta, and point-biserial correlation — with a plain-language verdict. |
+| [Harmful Request Classifier](04-red-teaming-safety/harmful-request-classifier/) | `04-red-teaming-safety` | ✅ | A transparent tiered classifier that triages requests into allow / caution / refuse with a refuse-outranks-caution rule, scored with accuracy and per-tier recall on a labeled set. |
 | [PII Leak Detector](04-red-teaming-safety/pii-leak-detector/) | `04-red-teaming-safety` | ✅ | Finds and redacts PII (emails, phones, SSNs, credit cards with a Luhn check, IPv4) in text, scored with precision/recall on a labeled set — a defensive scrubbing utility. |
 | [Prompt-Injection Detector](04-red-teaming-safety/prompt-injection-detector/) | `04-red-teaming-safety` | ✅ | A defensive rule-based detector that flags injection attempts in untrusted content (override, exfiltration, role spoofing, destructive commands), scored with precision/recall/F1 against a labeled set. |
 | [Dedup & Diversity Scoring](05-synthetic-data/dedup-and-diversity-scoring/) | `05-synthetic-data` | ✅ | Removes near-duplicate dataset entries with character n-gram Jaccard similarity and scores diversity before and after — no embeddings, fully deterministic. |
@@ -87,7 +88,7 @@ The table below is generated from each project's `meta.json` (run
 - ⬜ `safety-rubric-annotation-guide` — how to label safety violations
 - ✅ `pii-leak-detector` — flag PII in model outputs
 - ⬜ `tool-use-guardrail-tests` — guardrails on dangerous tool calls
-- ⬜ `harmful-request-classifier` — classify request risk levels
+- ✅ `harmful-request-classifier` — classify request risk levels
 - ⬜ `sycophancy-eval` — does the model cave to pushback
 - ⬜ `content-policy-boundary-cases` — the hard middle of a policy
 
