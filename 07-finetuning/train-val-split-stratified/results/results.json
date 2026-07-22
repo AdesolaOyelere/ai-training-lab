@@ -1,0 +1,27 @@
+{
+  "total": 22,
+  "sizes": {
+    "train": 12,
+    "val": 5,
+    "test": 5
+  },
+  "overall_label_props": {
+    "neg": 0.5,
+    "pos": 0.5
+  },
+  "split_label_props": {
+    "train": {
+      "neg": 0.5,
+      "pos": 0.5
+    },
+    "val": {
+      "neg": 0.4,
+      "pos": 0.6
+    },
+    "test": {
+      "neg": 0.6,
+      "pos": 0.4
+    }
+  },
+  "no_leakage": true
+}

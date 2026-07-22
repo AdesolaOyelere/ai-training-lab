@@ -29,6 +29,7 @@ The table below is generated from each project's `meta.json` (run
 | [Tool-Calling Eval Harness](06-agentic-tasks/tool-calling-eval-harness/) | `06-agentic-tasks` | ✅ | Scores an agent's tool calls on schema validity, tool selection, and argument correctness against a tool catalog and expected calls, rolled up into tracked rates. |
 | [Chat Format Converter](07-finetuning/chat-format-converter/) | `07-finetuning` | ✅ | Converts SFT chat data between ShareGPT, OpenAI messages, and prompt/response formats via a single normalized representation, with validation and clear errors. |
 | [SFT Data Prep](07-finetuning/sft-data-prep/) | `07-finetuning` | ✅ | Cleans raw prompt/response data into ready-to-train SFT messages format — whitespace, empties, placeholders, length bounds, dedup — with a per-stage drop report. |
+| [Stratified Leakage-Safe Split](07-finetuning/train-val-split-stratified/) | `07-finetuning` | ✅ | Splits a labeled dataset into train/val/test that preserves class balance and prevents leakage by keeping duplicate texts in the same split — deterministic given a seed. |
 | [Annotation Edge-Case Catalog](08-annotation-guidelines/edge-case-catalog/) | `08-annotation-guidelines` | ✅ | An edge-case handbook for sentiment annotation (negation, mixed, sarcasm, comparison, rhetorical, conditional) plus a detector that flags which tricky rule applies, kept in sync with the doc via gold routing. |
 | [Summary Quality Rubric](08-annotation-guidelines/summary-quality-rubric/) | `08-annotation-guidelines` | ✅ | An annotation handbook for rating summary quality (coverage, faithfulness, conciseness, fluency) with a faithfulness gate, plus executable rubric code that reproduces every gold calibration label. |
 | [Logic Puzzles with Checkers](09-reasoning-datasets/logic-puzzles-with-checkers/) | `09-reasoning-datasets` | ✅ | Logic puzzles (seating, number placement, knights-and-knaves) each paired with a programmatic checker that validates any candidate solution by the rules, not by string match. |
@@ -125,7 +126,7 @@ The table below is generated from each project's `meta.json` (run
 - ✅ `chat-format-converter` — ShareGPT / messages / JSONL converters
 - ⬜ `lora-config-explainer` — annotated LoRA config walkthrough
 - ⬜ `dataset-decontamination` — remove eval leakage from train data
-- ⬜ `train-val-split-stratified` — stratified, leakage-safe splits
+- ✅ `train-val-split-stratified` — stratified, leakage-safe splits
 - ⬜ `loss-curve-reader` — parse and summarize training logs
 
 ### 08 · Annotation Guidelines & Rubrics

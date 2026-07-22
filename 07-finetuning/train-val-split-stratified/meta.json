@@ -1,0 +1,8 @@
+{
+  "title": "Stratified Leakage-Safe Split",
+  "slug": "train-val-split-stratified",
+  "category": "07-finetuning",
+  "status": "done",
+  "skills": ["data-engineering", "train-test-split", "leakage-prevention", "python"],
+  "summary": "Splits a labeled dataset into train/val/test that preserves class balance and prevents leakage by keeping duplicate texts in the same split — deterministic given a seed."
+}
