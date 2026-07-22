@@ -36,12 +36,17 @@ def test_binary_labels_split_the_ranking():
     assert labels == [True, True, False, False]     # top half desirable
 
 
-def test_binary_single_row_round_trips_label():
+def test_binary_round_trips_within_a_single_conversion():
+    # a binary row keeps its own label when the whole conversion happens in one call
     row = {"prompt": "p", "completion": "x", "label": False}
-    ranked = convert_record(row, "binary", "ranked")[0]
-    assert ranked["responses"] == ["x"]
-    back = convert_record(ranked, "ranked", "binary")[0]
-    assert back == row
+    assert convert_record(row, "binary", "binary")[0] == row
+
+
+def test_pairwise_to_binary_marks_chosen_desirable():
+    pw = {"prompt": "p", "chosen": "good", "rejected": "bad"}
+    rows = convert_record(pw, "pairwise", "binary")
+    assert {"prompt": "p", "completion": "good", "label": True} in rows
+    assert {"prompt": "p", "completion": "bad", "label": False} in rows
 
 
 def test_error_reports_index():
