@@ -1,0 +1,63 @@
+{
+  "n": 8,
+  "flagged_for_review": 7,
+  "flag_rate": 0.875,
+  "counts_by_case": {
+    "comparison": 1,
+    "conditional": 1,
+    "contrast_mixed": 2,
+    "negation": 2,
+    "rhetorical_question": 1,
+    "sarcasm_cue": 1
+  },
+  "per_item": [
+    {
+      "id": "g1",
+      "edge_cases": [
+        "contrast_mixed"
+      ]
+    },
+    {
+      "id": "g2",
+      "edge_cases": [
+        "negation"
+      ]
+    },
+    {
+      "id": "g3",
+      "edge_cases": [
+        "sarcasm_cue"
+      ]
+    },
+    {
+      "id": "g4",
+      "edge_cases": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "g5",
+      "edge_cases": [
+        "rhetorical_question"
+      ]
+    },
+    {
+      "id": "g6",
+      "edge_cases": []
+    },
+    {
+      "id": "g7",
+      "edge_cases": [
+        "conditional"
+      ]
+    },
+    {
+      "id": "g8",
+      "edge_cases": [
+        "contrast_mixed",
+        "negation"
+      ]
+    }
+  ],
+  "gold_mismatches": []
+}

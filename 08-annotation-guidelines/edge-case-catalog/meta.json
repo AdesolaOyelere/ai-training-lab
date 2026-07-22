@@ -1,0 +1,8 @@
+{
+  "title": "Annotation Edge-Case Catalog",
+  "slug": "edge-case-catalog",
+  "category": "08-annotation-guidelines",
+  "status": "done",
+  "skills": ["annotation-guidelines", "edge-cases", "routing", "python"],
+  "summary": "An edge-case handbook for sentiment annotation (negation, mixed, sarcasm, comparison, rhetorical, conditional) plus a detector that flags which tricky rule applies, kept in sync with the doc via gold routing."
+}

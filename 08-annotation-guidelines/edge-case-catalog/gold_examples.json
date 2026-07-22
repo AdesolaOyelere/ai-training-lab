@@ -1,0 +1,10 @@
+[
+  {"id": "g1", "text": "The food was good but the service was terrible.", "expected": ["contrast_mixed"]},
+  {"id": "g2", "text": "I do not like this product at all.", "expected": ["negation"]},
+  {"id": "g3", "text": "Oh great, another delay. Just what I needed.", "expected": ["sarcasm_cue"]},
+  {"id": "g4", "text": "This phone is better than my old one.", "expected": ["comparison"]},
+  {"id": "g5", "text": "Who would ever want this?", "expected": ["rhetorical_question"]},
+  {"id": "g6", "text": "It works fine and I am happy with it.", "expected": []},
+  {"id": "g7", "text": "I would have loved it if it were cheaper.", "expected": ["conditional"]},
+  {"id": "g8", "text": "The battery is not bad, but charging is slow.", "expected": ["contrast_mixed", "negation"]}
+]
