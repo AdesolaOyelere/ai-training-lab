@@ -1,0 +1,28 @@
+{
+  "n_test": 6,
+  "prior_label": "greeting",
+  "conditions": [
+    {
+      "shots": 0,
+      "accuracy": 0.3333
+    },
+    {
+      "shots": 1,
+      "accuracy": 0.3333
+    },
+    {
+      "shots": 3,
+      "accuracy": 0.6667
+    },
+    {
+      "shots": 6,
+      "accuracy": 1.0
+    },
+    {
+      "shots": 9,
+      "accuracy": 1.0
+    }
+  ],
+  "improvement_0_to_max": 0.6667,
+  "monotonic_nondecreasing": true
+}

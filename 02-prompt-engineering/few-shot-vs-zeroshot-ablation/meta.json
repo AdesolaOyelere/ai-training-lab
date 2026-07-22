@@ -1,0 +1,8 @@
+{
+  "title": "Few-Shot vs Zero-Shot Ablation",
+  "slug": "few-shot-vs-zeroshot-ablation",
+  "category": "02-prompt-engineering",
+  "status": "done",
+  "skills": ["prompt-engineering", "ablation", "evaluation", "python"],
+  "summary": "A controlled ablation measuring accuracy as few-shot exemplars are added (0 -> 9), producing an honest, reproducible few-shot curve on an intent-classification task."
+}
